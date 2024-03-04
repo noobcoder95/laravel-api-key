@@ -20,8 +20,8 @@
     },
     "extra": {
         "laravel": {
-            "providers": [
-                "Noobcoder95\\LaravelApiKey\\Providers\\ApiKeyServiceProvider"
+            "dont-discover": [
+                "noobcoder95/laravel-api-key"
             ]
         }
     }
