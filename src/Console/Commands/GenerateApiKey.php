@@ -1,8 +1,8 @@
 <?php
 
-namespace Ejarnutowski\LaravelApiKey\Console\Commands;
+namespace Noobcoder95\LaravelApiKey\Console\Commands;
 
-use Ejarnutowski\LaravelApiKey\Models\ApiKey;
+use Noobcoder95\LaravelApiKey\Models\ApiKey;
 use Illuminate\Console\Command;
 
 class GenerateApiKey extends Command
