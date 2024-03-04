@@ -1,6 +1,6 @@
 <?php
 
-namespace Ejarnutowski\LaravelApiKey\Providers;
+namespace Noobcoder95\LaravelApiKey\Providers;
 
 use Ejarnutowski\LaravelApiKey\Console\Commands\ActivateApiKey;
 use Ejarnutowski\LaravelApiKey\Console\Commands\DeactivateApiKey;
