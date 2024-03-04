@@ -2,12 +2,12 @@
 
 namespace Noobcoder95\LaravelApiKey\Providers;
 
-use Ejarnutowski\LaravelApiKey\Console\Commands\ActivateApiKey;
-use Ejarnutowski\LaravelApiKey\Console\Commands\DeactivateApiKey;
-use Ejarnutowski\LaravelApiKey\Console\Commands\DeleteApiKey;
-use Ejarnutowski\LaravelApiKey\Console\Commands\GenerateApiKey;
-use Ejarnutowski\LaravelApiKey\Console\Commands\ListApiKeys;
-use Ejarnutowski\LaravelApiKey\Http\Middleware\AuthorizeApiKey;
+use Noobcoder95\LaravelApiKey\Console\Commands\ActivateApiKey;
+use Noobcoder95\LaravelApiKey\Console\Commands\DeactivateApiKey;
+use Noobcoder95\LaravelApiKey\Console\Commands\DeleteApiKey;
+use Noobcoder95\LaravelApiKey\Console\Commands\GenerateApiKey;
+use Noobcoder95\LaravelApiKey\Console\Commands\ListApiKeys;
+use Noobcoder95\LaravelApiKey\Http\Middleware\AuthorizeApiKey;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
 
